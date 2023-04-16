@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author mrdlp
+ *
+ */
+module JavaTraining {
+}

@@ -5,5 +5,5 @@
  * @author mrdlp
  *
  */
-module JavaTraining {
+module MyTrainingPrograms {
 }

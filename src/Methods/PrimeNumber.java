@@ -10,7 +10,7 @@ public class PrimeNumber {
 			return false;
 		for (int i = 2; i < (num / 2 + 1); i++)
 			if (num % i == 0) {
-				System.out.println("Number " + num + " is not a prime number becuase it is deivisble by " + i);
+				System.out.println("Number " + num + " is not a prime number becuase it is deivisble by number: " + i);
 				return false;
 			}
 

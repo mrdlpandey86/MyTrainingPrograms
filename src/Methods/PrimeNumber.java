@@ -6,7 +6,6 @@ public class PrimeNumber {
 
 	public static boolean isPrime(int num) {
 
-		// System.out.println("Enter a number :" +num);
 		if (num <= 1)
 			return false;
 		for (int i = 2; i < (num / 2 + 1); i++)

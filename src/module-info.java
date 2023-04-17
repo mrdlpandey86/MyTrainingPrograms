@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author mrdlp
- *
- */
-module MyTrainingPrograms {
-}

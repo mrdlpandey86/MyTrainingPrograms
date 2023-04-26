@@ -6,7 +6,7 @@ public class Car {
 	private String doors;
 	private String driver;
 
-	public Car() {
+	public  Car() {
 		super();
 		speed = 0; // default constructor
 		engine = "off";

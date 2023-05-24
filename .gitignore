@@ -1,2 +1,9 @@
 /.metadata/
 .metadata/
+/bin/
+/collections/bin/
+/collections/.settings/
+/CoreJavaPrograms/bin/
+/CoreJavaPrograms/.settings/
+/ReadingURLParams/build/
+/ReadingURLParams/.settings/

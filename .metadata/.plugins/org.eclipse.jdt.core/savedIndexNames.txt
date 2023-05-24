@@ -5,7 +5,6 @@ INDEX VERSION 1.132+C:\Users\mrdlp\workspace\JavaWorkspace\.metadata\.plugins\or
 1249545308.index
 3048005532.index
 327028710.index
-1558440323.index
 1865797976.index
 1269134348.index
 3856728335.index

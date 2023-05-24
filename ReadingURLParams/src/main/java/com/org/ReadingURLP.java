@@ -35,7 +35,7 @@ public class ReadingURLP extends HttpServlet {
 
 		PrintWriter out = response.getWriter();
 		out.println("<html><h2>Hello,</h2>");
-		out.println("<h1>" + request.getParameter("firstName") + ", "+request.getParameter("secondName") + "</h1></html>");
+		out.println("<h1>" + request.getParameter("firstName1") + ", "+request.getParameter("secondName") + "</h1></html>");
 	}
 
 	private String getValue() {

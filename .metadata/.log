@@ -2362,3 +2362,23 @@ java.io.FileNotFoundException:
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
 	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.security 1 0 2023-05-24 21:38:02.473
+!MESSAGE New keyring password generated. 
+
+!ENTRY org.eclipse.egit.core 4 0 2023-05-24 21:38:25.699
+!MESSAGE An exception occurred during push on URI https://github.com/mrdlpandey86/MyTrainingPrograms.git: https://github.com/mrdlpandey86/MyTrainingPrograms.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/mrdlpandey86/MyTrainingPrograms.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-05-24 21:38:25.709
+!MESSAGE Can't connect to any repository: https://github.com/mrdlpandey86/MyTrainingPrograms.git (https://github.com/mrdlpandey86/MyTrainingPrograms.git: not authorized)

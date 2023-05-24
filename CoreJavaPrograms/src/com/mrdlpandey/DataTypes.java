@@ -21,7 +21,7 @@ public class DataTypes {
 		System.out.println();
 		printBoolean();
 
-	}
+	} 
 
 	private static void printByte() {
 		//byte b = 100

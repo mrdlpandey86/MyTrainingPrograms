@@ -15,24 +15,27 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/ReadingURLP")
 public class ReadingURLP extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public ReadingURLP() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#HttpServlet()
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//response.getWriter().print(request.getParameter("getValue1"));
-		//response.getWriter().print(request.getParameter("getValue2"));
-		
-		PrintWriter out= response.getWriter();
-		out.println("<h1>value1= "+request.getParameter("getValue1")+"</h1>");
+	public ReadingURLP() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// response.getWriter().print(request.getParameter("getValue1"));
+		// response.getWriter().print(request.getParameter("getValue2"));
+
+		PrintWriter out = response.getWriter();
+		out.println("<html><h2>Hello,</h2>");
+		out.println("<h1>" + request.getParameter("firstName") + ", "+request.getParameter("secondName") + "</h1></html>");
 	}
 
 	private String getValue() {
@@ -41,9 +44,11 @@ public class ReadingURLP extends HttpServlet {
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
 	}

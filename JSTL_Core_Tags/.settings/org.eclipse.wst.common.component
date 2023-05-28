@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="JSTL  Core Tags">
+    <wb-module deploy-name="JSTL_Core_Tags">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="JSTL__Core_Tags"/>
-        <property name="java-output-path" value="/JSTL  Core Tags/build/classes"/>
+        <property name="context-root" value="JSTL_Core_Tags"/>
+        <property name="java-output-path" value="/JSTL_Core_Tags/target/classes"/>
     </wb-module>
 </project-modules>

@@ -8,9 +8,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<jsp:useBean id="User" class="com.org.User" scope="page"></jsp:useBean>
 	<h2>Hello World!</h2>
-	<c:set var="name" value="Mridula"></c:set>
+	<c:set var="name" value="Arun"></c:set>
 	<c:out value="${name}"></c:out>
+	
+	<br/>
+	<c:out value="${User.getFirstName()}"></c:out>
+	
 
 </body>
 </html>

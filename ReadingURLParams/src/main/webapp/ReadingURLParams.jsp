@@ -10,8 +10,8 @@
 <body>
 <h1> Reading URL Parameters</h1>
 <%
-out.println("Value1="+ request.getParameter("getValue1"));
-out.println("Value1="+ request.getParameter("getValue2"));
+out.println("Value1="+ request.getParameter("Value1"));
+out.println("Value1="+ request.getParameter("Value2"));
 
 %>
 <br/>

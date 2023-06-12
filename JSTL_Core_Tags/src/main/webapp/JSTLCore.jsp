@@ -15,7 +15,10 @@
 	
 	<br/>
 	<c:out value="${User.getFirstName()}"></c:out>
+	<c:out value="${User.lastName}"></c:out>
 	
-
+    <br/>
+ 
+  
 </body>
 </html>
